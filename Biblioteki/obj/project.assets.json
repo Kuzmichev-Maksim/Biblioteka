@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "ClassLibrary2/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ClassLibrary2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary2.dll": {}
+        }
+      },
+      "WpfCustomControlLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WpfCustomControlLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfCustomControlLibrary1.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibrary2/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary2/ClassLibrary2.csproj",
+      "msbuildProject": "../ClassLibrary2/ClassLibrary2.csproj"
+    },
+    "WpfCustomControlLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../WpfCustomControlLibrary1/WpfCustomControlLibrary1.csproj",
+      "msbuildProject": "../WpfCustomControlLibrary1/WpfCustomControlLibrary1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ClassLibrary2 >= 1.0.0",
+      "WpfCustomControlLibrary1 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\maksi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\maksi\\OneDrive\\Документы\\Колледж\\4 семестр\\C#\\практическая 8 - Библиотеки\\Biblioteki\\Biblioteki\\Biblioteki.csproj",
+      "projectName": "Biblioteki",
+      "projectPath": "C:\\Users\\maksi\\OneDrive\\Документы\\Колледж\\4 семестр\\C#\\практическая 8 - Библиотеки\\Biblioteki\\Biblioteki\\Biblioteki.csproj",
+      "packagesPath": "C:\\Users\\maksi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maksi\\OneDrive\\Документы\\Колледж\\4 семестр\\C#\\практическая 8 - Библиотеки\\Biblioteki\\Biblioteki\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\maksi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\maksi\\OneDrive\\Документы\\Колледж\\4 семестр\\C#\\практическая 8 - Библиотеки\\Biblioteki\\ClassLibrary2\\ClassLibrary2.csproj": {
+              "projectPath": "C:\\Users\\maksi\\OneDrive\\Документы\\Колледж\\4 семестр\\C#\\практическая 8 - Библиотеки\\Biblioteki\\ClassLibrary2\\ClassLibrary2.csproj"
+            },
+            "C:\\Users\\maksi\\OneDrive\\Документы\\Колледж\\4 семестр\\C#\\практическая 8 - Библиотеки\\Biblioteki\\WpfCustomControlLibrary1\\WpfCustomControlLibrary1.csproj": {
+              "projectPath": "C:\\Users\\maksi\\OneDrive\\Документы\\Колледж\\4 семестр\\C#\\практическая 8 - Библиотеки\\Biblioteki\\WpfCustomControlLibrary1\\WpfCustomControlLibrary1.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
